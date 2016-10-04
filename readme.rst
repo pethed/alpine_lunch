@@ -16,10 +16,10 @@ From that folder, run
     
 to build the image. After build completes run
 
- docker run --rm -i lunch:1 /bin/bash -c /root/days.sh
+ docker run --rm -i lunch:1 /bin/bash -c /root/dagens_lunch.sh
       
 to view the menu.
 
 To make things prettier add the following to your .bashrc
       
- alias lunch='docker run --rm -i lunch:1 /bin/bash -c days.sh'
+ alias lunch='docker run --rm -i lunch:1 /bin/bash -c dagens_lunch.sh'
